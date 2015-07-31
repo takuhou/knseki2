@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		153CCC8117845562006CB524 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153CCC7F17845562006CB524 /* MapViewController.m */; };
+		153CCC8217845562006CB524 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153CCC8017845562006CB524 /* MapViewController.xib */; };
+		153CCC84178458D4006CB524 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153CCC83178458D4006CB524 /* MapKit.framework */; };
+		153D761C16D5039900BEB9FE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153D761A16D5039900BEB9FE /* DetailViewController.m */; };
+		153D761D16D5039900BEB9FE /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153D761B16D5039900BEB9FE /* DetailViewController.xib */; };
+		153D762116D5212500BEB9FE /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153D762016D5212500BEB9FE /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		153D762416D5481300BEB9FE /* f_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 153D762216D5481200BEB9FE /* f_logo.png */; };
+		153D762516D5481300BEB9FE /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 153D762316D5481300BEB9FE /* twitter.png */; };
+		156E04E216CCFCE200838DC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156E04E116CCFCE200838DC8 /* UIKit.framework */; };
+		156E04E416CCFCE200838DC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156E04E316CCFCE200838DC8 /* Foundation.framework */; };
+		156E04E616CCFCE200838DC8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156E04E516CCFCE200838DC8 /* CoreGraphics.framework */; };
+		156E04EC16CCFCE200838DC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 156E04EA16CCFCE200838DC8 /* InfoPlist.strings */; };
+		156E04EE16CCFCE200838DC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 156E04ED16CCFCE200838DC8 /* main.m */; };
+		156E04F216CCFCE200838DC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 156E04F116CCFCE200838DC8 /* AppDelegate.m */; };
+		156E04F416CCFCE200838DC8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 156E04F316CCFCE200838DC8 /* Default.png */; };
+		156E04F616CCFCE200838DC8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 156E04F516CCFCE200838DC8 /* Default@2x.png */; };
+		156E04F816CCFCE200838DC8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 156E04F716CCFCE200838DC8 /* Default-568h@2x.png */; };
+		156E04FB16CCFCE200838DC8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156E04FA16CCFCE200838DC8 /* FirstViewController.m */; };
+		156E04FD16CCFCE200838DC8 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 156E04FC16CCFCE200838DC8 /* first.png */; };
+		156E04FF16CCFCE200838DC8 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 156E04FE16CCFCE200838DC8 /* first@2x.png */; };
+		156E050216CCFCE200838DC8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156E050116CCFCE200838DC8 /* SecondViewController.m */; };
+		156E050416CCFCE200838DC8 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 156E050316CCFCE200838DC8 /* second.png */; };
+		156E050616CCFCE200838DC8 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 156E050516CCFCE200838DC8 /* second@2x.png */; };
+		156E050916CCFCE200838DC8 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156E050716CCFCE200838DC8 /* FirstViewController.xib */; };
+		156E050C16CCFCE200838DC8 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156E050A16CCFCE200838DC8 /* SecondViewController.xib */; };
+		156E051516CCFDD900838DC8 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156E051316CCFDD900838DC8 /* ThirdViewController.m */; };
+		156E051916D1D09B00838DC8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156E051816D1D09B00838DC8 /* CoreLocation.framework */; };
+		156E051B16D21F1400838DC8 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156E051A16D21F1400838DC8 /* ThirdViewController.xib */; };
+		1572C4F41794530C001860B8 /* notepad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1572C4F21794530C001860B8 /* notepad.png */; };
+		1572C4F51794530C001860B8 /* magnify.png in Resources */ = {isa = PBXBuildFile; fileRef = 1572C4F31794530C001860B8 /* magnify.png */; };
+		1572C4F91795645C001860B8 /* footprint.png in Resources */ = {isa = PBXBuildFile; fileRef = 1572C4F81795645C001860B8 /* footprint.png */; };
+		1580FB4B1786473A00D30ECD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580FB4A1786473A00D30ECD /* SystemConfiguration.framework */; };
+		1580FB551786774F00D30ECD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580FB541786774F00D30ECD /* QuartzCore.framework */; };
+		1580FB56178680DA00D30ECD /* PullRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580FB531786771200D30ECD /* PullRefreshTableViewController.m */; };
+		1580FB581786811300D30ECD /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580FB571786811300D30ECD /* arrow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		153CCC7E17845562006CB524 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		153CCC7F17845562006CB524 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		153CCC8017845562006CB524 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		153CCC83178458D4006CB524 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		153D761916D5039900BEB9FE /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		153D761A16D5039900BEB9FE /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		153D761B16D5039900BEB9FE /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		153D761E16D51DD000BEB9FE /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		153D762016D5212500BEB9FE /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		153D762216D5481200BEB9FE /* f_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f_logo.png; sourceTree = "<group>"; };
+		153D762316D5481300BEB9FE /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		156E04DE16CCFCE200838DC8 /* konseki2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = konseki2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		156E04E116CCFCE200838DC8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		156E04E316CCFCE200838DC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		156E04E516CCFCE200838DC8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		156E04E916CCFCE200838DC8 /* konseki2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "konseki2-Info.plist"; sourceTree = "<group>"; };
+		156E04EB16CCFCE200838DC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		156E04ED16CCFCE200838DC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		156E04EF16CCFCE200838DC8 /* konseki2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "konseki2-Prefix.pch"; sourceTree = "<group>"; };
+		156E04F016CCFCE200838DC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		156E04F116CCFCE200838DC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		156E04F316CCFCE200838DC8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		156E04F516CCFCE200838DC8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		156E04F716CCFCE200838DC8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		156E04F916CCFCE200838DC8 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		156E04FA16CCFCE200838DC8 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		156E04FC16CCFCE200838DC8 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		156E04FE16CCFCE200838DC8 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		156E050016CCFCE200838DC8 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		156E050116CCFCE200838DC8 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		156E050316CCFCE200838DC8 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		156E050516CCFCE200838DC8 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		156E050816CCFCE200838DC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		156E050B16CCFCE200838DC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		156E051216CCFDD900838DC8 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		156E051316CCFDD900838DC8 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		156E051816D1D09B00838DC8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		156E051A16D21F1400838DC8 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		1572C4F21794530C001860B8 /* notepad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notepad.png; sourceTree = "<group>"; };
+		1572C4F31794530C001860B8 /* magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnify.png; sourceTree = "<group>"; };
+		1572C4F81795645C001860B8 /* footprint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = footprint.png; path = ../footprint.png; sourceTree = "<group>"; };
+		1580FB4A1786473A00D30ECD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1580FB521786771200D30ECD /* PullRefreshTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PullRefreshTableViewController.h; sourceTree = "<group>"; };
+		1580FB531786771200D30ECD /* PullRefreshTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullRefreshTableViewController.m; sourceTree = "<group>"; };
+		1580FB541786774F00D30ECD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1580FB571786811300D30ECD /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		156E04DB16CCFCE200838DC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1580FB551786774F00D30ECD /* QuartzCore.framework in Frameworks */,
+				1580FB4B1786473A00D30ECD /* SystemConfiguration.framework in Frameworks */,
+				153CCC84178458D4006CB524 /* MapKit.framework in Frameworks */,
+				153D762116D5212500BEB9FE /* Social.framework in Frameworks */,
+				156E051916D1D09B00838DC8 /* CoreLocation.framework in Frameworks */,
+				156E04E216CCFCE200838DC8 /* UIKit.framework in Frameworks */,
+				156E04E416CCFCE200838DC8 /* Foundation.framework in Frameworks */,
+				156E04E616CCFCE200838DC8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		156E04D516CCFCE200838DC8 = {
+			isa = PBXGroup;
+			children = (
+				156E04E716CCFCE200838DC8 /* konseki2 */,
+				156E04E016CCFCE200838DC8 /* Frameworks */,
+				156E04DF16CCFCE200838DC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		156E04DF16CCFCE200838DC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				156E04DE16CCFCE200838DC8 /* konseki2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		156E04E016CCFCE200838DC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1580FB541786774F00D30ECD /* QuartzCore.framework */,
+				1580FB4A1786473A00D30ECD /* SystemConfiguration.framework */,
+				153CCC83178458D4006CB524 /* MapKit.framework */,
+				153D762016D5212500BEB9FE /* Social.framework */,
+				153D761E16D51DD000BEB9FE /* Twitter.framework */,
+				156E051816D1D09B00838DC8 /* CoreLocation.framework */,
+				156E04E116CCFCE200838DC8 /* UIKit.framework */,
+				156E04E316CCFCE200838DC8 /* Foundation.framework */,
+				156E04E516CCFCE200838DC8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		156E04E716CCFCE200838DC8 /* konseki2 */ = {
+			isa = PBXGroup;
+			children = (
+				1580FB571786811300D30ECD /* arrow.png */,
+				1580FB521786771200D30ECD /* PullRefreshTableViewController.h */,
+				1580FB531786771200D30ECD /* PullRefreshTableViewController.m */,
+				156E04F016CCFCE200838DC8 /* AppDelegate.h */,
+				156E04F116CCFCE200838DC8 /* AppDelegate.m */,
+				156E04F916CCFCE200838DC8 /* FirstViewController.h */,
+				156E04FA16CCFCE200838DC8 /* FirstViewController.m */,
+				156E050716CCFCE200838DC8 /* FirstViewController.xib */,
+				153CCC7E17845562006CB524 /* MapViewController.h */,
+				153CCC7F17845562006CB524 /* MapViewController.m */,
+				153CCC8017845562006CB524 /* MapViewController.xib */,
+				156E04FC16CCFCE200838DC8 /* first.png */,
+				156E04FE16CCFCE200838DC8 /* first@2x.png */,
+				156E050016CCFCE200838DC8 /* SecondViewController.h */,
+				156E050116CCFCE200838DC8 /* SecondViewController.m */,
+				156E050A16CCFCE200838DC8 /* SecondViewController.xib */,
+				156E050316CCFCE200838DC8 /* second.png */,
+				156E050516CCFCE200838DC8 /* second@2x.png */,
+				156E051216CCFDD900838DC8 /* ThirdViewController.h */,
+				156E051316CCFDD900838DC8 /* ThirdViewController.m */,
+				156E051A16D21F1400838DC8 /* ThirdViewController.xib */,
+				153D761916D5039900BEB9FE /* DetailViewController.h */,
+				153D761A16D5039900BEB9FE /* DetailViewController.m */,
+				153D761B16D5039900BEB9FE /* DetailViewController.xib */,
+				153D762216D5481200BEB9FE /* f_logo.png */,
+				153D762316D5481300BEB9FE /* twitter.png */,
+				156E04E816CCFCE200838DC8 /* Supporting Files */,
+			);
+			path = konseki2;
+			sourceTree = "<group>";
+		};
+		156E04E816CCFCE200838DC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1572C4F81795645C001860B8 /* footprint.png */,
+				1572C4F21794530C001860B8 /* notepad.png */,
+				1572C4F31794530C001860B8 /* magnify.png */,
+				156E04E916CCFCE200838DC8 /* konseki2-Info.plist */,
+				156E04EA16CCFCE200838DC8 /* InfoPlist.strings */,
+				156E04ED16CCFCE200838DC8 /* main.m */,
+				156E04EF16CCFCE200838DC8 /* konseki2-Prefix.pch */,
+				156E04F316CCFCE200838DC8 /* Default.png */,
+				156E04F516CCFCE200838DC8 /* Default@2x.png */,
+				156E04F716CCFCE200838DC8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		156E04DD16CCFCE200838DC8 /* konseki2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 156E050F16CCFCE200838DC8 /* Build configuration list for PBXNativeTarget "konseki2" */;
+			buildPhases = (
+				156E04DA16CCFCE200838DC8 /* Sources */,
+				156E04DB16CCFCE200838DC8 /* Frameworks */,
+				156E04DC16CCFCE200838DC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = konseki2;
+			productName = konseki2;
+			productReference = 156E04DE16CCFCE200838DC8 /* konseki2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		156E04D616CCFCE200838DC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "takuho-sanpei";
+			};
+			buildConfigurationList = 156E04D916CCFCE200838DC8 /* Build configuration list for PBXProject "konseki2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 156E04D516CCFCE200838DC8;
+			productRefGroup = 156E04DF16CCFCE200838DC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				156E04DD16CCFCE200838DC8 /* konseki2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		156E04DC16CCFCE200838DC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156E04EC16CCFCE200838DC8 /* InfoPlist.strings in Resources */,
+				156E04F416CCFCE200838DC8 /* Default.png in Resources */,
+				156E04F616CCFCE200838DC8 /* Default@2x.png in Resources */,
+				156E04F816CCFCE200838DC8 /* Default-568h@2x.png in Resources */,
+				156E04FD16CCFCE200838DC8 /* first.png in Resources */,
+				156E04FF16CCFCE200838DC8 /* first@2x.png in Resources */,
+				156E050416CCFCE200838DC8 /* second.png in Resources */,
+				156E050616CCFCE200838DC8 /* second@2x.png in Resources */,
+				156E050916CCFCE200838DC8 /* FirstViewController.xib in Resources */,
+				156E050C16CCFCE200838DC8 /* SecondViewController.xib in Resources */,
+				156E051B16D21F1400838DC8 /* ThirdViewController.xib in Resources */,
+				153D761D16D5039900BEB9FE /* DetailViewController.xib in Resources */,
+				153D762416D5481300BEB9FE /* f_logo.png in Resources */,
+				153D762516D5481300BEB9FE /* twitter.png in Resources */,
+				153CCC8217845562006CB524 /* MapViewController.xib in Resources */,
+				1580FB581786811300D30ECD /* arrow.png in Resources */,
+				1572C4F41794530C001860B8 /* notepad.png in Resources */,
+				1572C4F51794530C001860B8 /* magnify.png in Resources */,
+				1572C4F91795645C001860B8 /* footprint.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		156E04DA16CCFCE200838DC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1580FB56178680DA00D30ECD /* PullRefreshTableViewController.m in Sources */,
+				156E04EE16CCFCE200838DC8 /* main.m in Sources */,
+				156E04F216CCFCE200838DC8 /* AppDelegate.m in Sources */,
+				156E04FB16CCFCE200838DC8 /* FirstViewController.m in Sources */,
+				156E050216CCFCE200838DC8 /* SecondViewController.m in Sources */,
+				156E051516CCFDD900838DC8 /* ThirdViewController.m in Sources */,
+				153D761C16D5039900BEB9FE /* DetailViewController.m in Sources */,
+				153CCC8117845562006CB524 /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		156E04EA16CCFCE200838DC8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				156E04EB16CCFCE200838DC8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		156E050716CCFCE200838DC8 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				156E050816CCFCE200838DC8 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		156E050A16CCFCE200838DC8 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				156E050B16CCFCE200838DC8 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		156E050D16CCFCE200838DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		156E050E16CCFCE200838DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		156E051016CCFCE200838DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "konseki2/konseki2-Prefix.pch";
+				INFOPLIST_FILE = "konseki2/konseki2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		156E051116CCFCE200838DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "konseki2/konseki2-Prefix.pch";
+				INFOPLIST_FILE = "konseki2/konseki2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		156E04D916CCFCE200838DC8 /* Build configuration list for PBXProject "konseki2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				156E050D16CCFCE200838DC8 /* Debug */,
+				156E050E16CCFCE200838DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		156E050F16CCFCE200838DC8 /* Build configuration list for PBXNativeTarget "konseki2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				156E051016CCFCE200838DC8 /* Debug */,
+				156E051116CCFCE200838DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 156E04D616CCFCE200838DC8 /* Project object */;
+}
